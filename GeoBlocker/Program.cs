@@ -36,6 +36,8 @@ namespace GeoBlocker
                 client.DefaultRequestHeaders.Add("User-Agent", "CountryBlockingAPI/1.0");
             });
 
+            //backGround Service
+            builder.Services.AddHostedService<TemporalBlockCleanupService>();
 
             var app = builder.Build();
 

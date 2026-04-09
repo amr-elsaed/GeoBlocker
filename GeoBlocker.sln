@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36603.0 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoBlocker.PL", "GeoBlocker\GeoBlocker.PL.csproj", "{8EBD2670-A443-4658-AD53-3E457F9E8FDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoBlocker.BLL", "GeoBlocker.BLL\GeoBlocker.BLL.csproj", "{C52DB86D-E06D-4584-A204-6BF2E52FA5DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoBlocker.DAL", "GeoBlocker.DAL\GeoBlocker.DAL.csproj", "{25357498-20BD-4E54-BA00-7DA053AB9E27}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8EBD2670-A443-4658-AD53-3E457F9E8FDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EBD2670-A443-4658-AD53-3E457F9E8FDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EBD2670-A443-4658-AD53-3E457F9E8FDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EBD2670-A443-4658-AD53-3E457F9E8FDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C52DB86D-E06D-4584-A204-6BF2E52FA5DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C52DB86D-E06D-4584-A204-6BF2E52FA5DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C52DB86D-E06D-4584-A204-6BF2E52FA5DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C52DB86D-E06D-4584-A204-6BF2E52FA5DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25357498-20BD-4E54-BA00-7DA053AB9E27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25357498-20BD-4E54-BA00-7DA053AB9E27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25357498-20BD-4E54-BA00-7DA053AB9E27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25357498-20BD-4E54-BA00-7DA053AB9E27}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A470E14B-0298-407F-94CA-B867D145E0CE}
+	EndGlobalSection
+EndGlobal
